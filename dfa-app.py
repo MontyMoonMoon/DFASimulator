@@ -1,6 +1,7 @@
 import streamlit as st
 import base64
 from PIL import Image
+import os
 
 from visual_automata.fa.dfa import VisualDFA
 
