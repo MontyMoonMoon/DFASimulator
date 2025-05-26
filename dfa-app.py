@@ -2,7 +2,7 @@ import streamlit as st
 import base64
 from PIL import Image
 
-from visual_automata.fa.dfa import VisualDFA
+
 
 r1 = "RegEx 1. (1+0)(1+0)*(11+00)(11+00)* (1+0)(0+1)(11*00*)((00)*+(11)*)(11+00)(11+00)*(1+0)*"
 r2 = "RegEx 2. (aa+bb)(a+b)*(aba+bab+bbb+aaa)(ab+ba)*(bb+aa)(a+b)*(a*ba*ba*)(bab+bba+bbb+aba)(a+b)*"
