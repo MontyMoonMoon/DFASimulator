@@ -112,9 +112,9 @@ with c2:
 
 # Load PDA images
 if user_choice == r1:
-    pda_image = Image.open("PDA1.png")
+    pda_image = Image.open(os.path.join(os.path.dirname(__file__), "images", "PDA1.png"))
 elif user_choice == r2:
-    pda_image = Image.open("PDA 2.png")
+    pda_image = Image.open(os.path.join(os.path.dirname(__file__), "images", "PDA 1.png"))
 
 # Limit the height of the image
 aspect_ratio = pda_image.width / pda_image.height
